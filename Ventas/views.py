@@ -13,7 +13,7 @@ from django.db import transaction
 
 # lista de ventas y sus detalles - (GET)
 @api_view(['GET'])
-@permission_classes([IsAuthenticated])  
+#@permission_classes([IsAuthenticated])  
 def lista_ventas(request):
     # Obtener el empleado autenticado
     try:
